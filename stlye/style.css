@@ -1,0 +1,117 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-bottom: solid black;
+    background-color: black;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color:grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: grey;
+    color: white;
+  }
+ 
+  
+  .topnav a.active {
+    background-color:white;
+    color: black;
+  }
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+*{
+    text-align: center;
+}
+
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+h1 {
+    margin: 30px;
+    font-family: "arial";
+    text-shadow: 5px 0 #006eff;
+    font-size: 4.5rem;
+    color: black;
+    text-align: center;
+    background-color:white;
+}
+
+p {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: "arial";
+}
+
+#img1 {
+    width: 100%;
+    border: #4ecca3 solid;
+    border-width: 1px;
+    border-radius: 7px;
+}
+#img2 {
+    width: 100%;
+    border: #4ecca3 solid;
+    border-width: 1px;
+    border-radius: 7px;
+}
+#cube{
+    width: 15%;
+    border: #4ecca3 solid;
+    border-width: 1px;
+    border-radius: 7px;
+}
+#names {
+    background: #ffffff;
+    font-family: "arial";
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+   
+}
+
+
+#game {
+    background: #ffffff;
+    font-family: "arial";
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+    
+    
+}
+
+#names:hover {
+    background: #006eff;
+    text-decoration: none;
+}
+#game:hover {
+    background: #006eff;
+    text-decoration: none;
+}
+
